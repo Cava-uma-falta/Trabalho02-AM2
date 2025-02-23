@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;900&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: darkgray;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 24px;
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+}
+
+.close-lightbox {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #f4f4f4;
+    font-size: 32px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.close-lightbox:hover {
+    color: #ffcc00;
+}
+
+.rating-container {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+#rating-stars {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star {
+    color: gray;
+    transition: color 0.3s ease-in-out;
+}
+
+.star:hover,
+.star.filled {
+    color: gold;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #ffcc00;
+    color: #222;
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 16px;
+    }
+
+    .thumbnail {
+        width: 80px;
+        height: 80px;
+    }
+
+    .pagination button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
