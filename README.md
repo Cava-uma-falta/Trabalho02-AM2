@@ -4,3 +4,9 @@
 [Questão 02](https://github.com/Cava-uma-falta/Trabalho02-AM2/blob/a529f05f0a0a445c974d8924c2be4b018b10aa68/Quest%C3%A3o%2002)
 ##
 [Questão 03](https://github.com/Cava-uma-falta/Trabalho02-AM2/blob/a529f05f0a0a445c974d8924c2be4b018b10aa68/Quest%C3%A3o%2003)
+##
+[Questão 04](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Quest%C3%A3o%2004)
+##
+[Questão 05](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Quest%C3%A3o%2005)
+##
+[Questão 06](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Quest%C3%A3o%2006)
