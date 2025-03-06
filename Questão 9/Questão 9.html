@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="Questão 9.css">
+</head>
+<body>
+    <div class="grid" id="imageGrid">
+        <div class="image-container" data-id="1">
+            <img src="https://via.placeholder.com/150" alt="Imagem 1" onclick="showImageDetails(1)">
+        </div>
+        <div class="image-container" data-id="2">
+            <img src="https://via.placeholder.com/150" alt="Imagem 2" onclick="showImageDetails(2)">
+        </div>
+    </div>
+    
+    <div id="details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('details-modal').style.display='none'">&times;</span>
+            <p id="modal-author"></p>
+            <p id="modal-dimensions"></p>
+            <p id="modal-url"></p>
+        </div>
+    </div>
+
+    <script src="Questão 9.js"></script>
+</body>
+</html>
