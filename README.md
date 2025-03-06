@@ -10,3 +10,11 @@
 [Questão 05](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Quest%C3%A3o%2005)
 ##
 [Questão 06](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Quest%C3%A3o%2006)
+##
+[Questão 07](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Questão%207)
+##
+[Questão 08](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Questão%208)
+##
+[Questão 09](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Questão%209)
+##
+[Questão 10](https://github.com/Cava-uma-falta/Trabalho02-AM2/tree/main/Questão%2010)
